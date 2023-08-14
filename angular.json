@@ -94,5 +94,17 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
+  }
+  {
+    "apps": [
+      {
+        "styles": [
+          "styles.css"
+        ]
+      }
+    ]
   }
 }

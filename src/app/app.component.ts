@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import { SharedService } from './shared.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <div style="display: flex;">
+  <app-drawflow></app-drawflow>
+    </div>
+  `,
+  providers: [SharedService]
 })
-export class AppComponent {
-  title = 'Nagaraj';
-}
+export class AppComponent { }
