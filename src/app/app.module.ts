@@ -4,9 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DrawflowComponent } from './drawflow/drawflow.component';
-import { SharedService } from './shared.service';
-import { SearchInputComponent } from './searchinput.component';
-import { UserListComponent } from './userlist.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,6 +15,7 @@ import { UserListComponent } from './userlist.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
