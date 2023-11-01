@@ -3,11 +3,7 @@ import { SharedService } from './shared.service';
 
 @Component({
   selector: 'app-root',
-  template: `
-  <div style="display: flex;">
-  <app-drawflow></app-drawflow>
-    </div>
-  `,
+  templateUrl: './app.component.html',
   providers: [SharedService]
 })
 export class AppComponent { }
